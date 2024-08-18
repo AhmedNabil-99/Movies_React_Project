@@ -10,7 +10,7 @@ export default function Welcom() {
                 Millions of movies, TV shows and people to discover. Explore now.
             </p>
             <div className="d-flex">
-                <input type="text" class="form-control" placeholder="Search and explore...." />
+                <input type="text" className="form-control" placeholder="Search and explore...." />
                 <button className="btn ms-3" style={{ backgroundColor: "#FFE353", fontSize: "14px", fontWeight: 400}}>Search</button>
             </div>
         </div>

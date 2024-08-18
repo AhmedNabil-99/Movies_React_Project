@@ -4,17 +4,17 @@ import arrow from "../../icons/arrow right.png"
 
 export default function Nav() {
     return (
-        <nav class="navbar navbar-expand" style={{ height: "55px"}}>
-            <div class="container-fluid">
-                <a class="navbar-brand" style={{ fontSize: "15px", fontWeight: 700 }} href="#">Movie App</a>
-                <div class="navbar-nav align-items-center">
+        <nav className="navbar navbar-expand" style={{ height: "55px"}}>
+            <div className="container-fluid">
+                <a className="navbar-brand" style={{ fontSize: "15px", fontWeight: 700 }} href="#">Movie App</a>
+                <div className="navbar-nav align-items-center">
                     <div className="d-flex align-items-center me-4">
-                        <a class="nav-link" style={{ fontSize: "15px", fontWeight: 700 }} aria-current="page" href="#">En</a>
+                        <a className="nav-link" style={{ fontSize: "15px", fontWeight: 700 }} aria-current="page" href="#">En</a>
                         <img src={arrow} alt="" />
                     </div>
                     <div className="d-flex align-items-center">
                         <img src={vector} alt="" />
-                        <a class="nav-link" style={{ fontSize: "15px", fontWeight: 400 }} href="#">watchlist</a>
+                        <a className="nav-link" style={{ fontSize: "15px", fontWeight: 400 }} href="#">watchlist</a>
                     </div>
                 </div>
                 </div>

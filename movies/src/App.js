@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/navbar/nav';
+import Cards from './components/cards/cards';
 import Router from './routes/routes';
 
 
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Nav />
       <Router />
+      <Cards />
     </div>
   );
 }
